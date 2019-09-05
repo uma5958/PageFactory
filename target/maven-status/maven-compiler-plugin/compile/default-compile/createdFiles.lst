@@ -1,0 +1,4 @@
+Pages\LoginPage.class
+Pages\BasePage.class
+Pages\HomePage.class
+Pages\PageGenerator.class

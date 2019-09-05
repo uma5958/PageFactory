@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Login TC4]]>
+    </line>
+    <line>
+      <![CDATA[Login TC3]]>
+    </line>
+    <line>
+      <![CDATA[Login success]]>
+    </line>
+    <line>
+      <![CDATA[Login TC3]]>
+    </line>
+    <line>
+      <![CDATA[Login TC4]]>
+    </line>
+    <line>
+      <![CDATA[Home page title is: Valuechain.com Test Site]]>
+    </line>
+    <line>
+      <![CDATA[Home url is: https://test.valuechain.com/iQluster/Network/Manage/List]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="139527" started-at="2019-08-25T02:44:20Z" finished-at="2019-08-25T02:46:39Z">
+    <groups>
+    </groups>
+    <test name="TestSite" duration-ms="139527" started-at="2019-08-25T02:44:20Z" finished-at="2019-08-25T02:46:39Z">
+      <class name="Tests.LoginPageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="setup" is-config="true" duration-ms="19702" started-at="2019-08-25T02:44:20Z" finished-at="2019-08-25T02:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_Login_TC4()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="verify_Login_TC4" duration-ms="1" started-at="2019-08-25T02:44:39Z" finished-at="2019-08-25T02:44:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login TC4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Login_TC4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="1005" started-at="2019-08-25T02:44:39Z" finished-at="2019-08-25T02:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="setup" is-config="true" duration-ms="16972" started-at="2019-08-25T02:44:41Z" finished-at="2019-08-25T02:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_loginpage_title()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="verify_loginpage_title" duration-ms="101" started-at="2019-08-25T02:44:57Z" finished-at="2019-08-25T02:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginpage_title -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="725" started-at="2019-08-25T02:44:58Z" finished-at="2019-08-25T02:44:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="setup" is-config="true" duration-ms="15549" started-at="2019-08-25T02:44:58Z" finished-at="2019-08-25T02:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="930" started-at="2019-08-25T02:45:14Z" finished-at="2019-08-25T02:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_Login_TC3()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="verify_Login_TC3" duration-ms="0" started-at="2019-08-25T02:45:14Z" finished-at="2019-08-25T02:45:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login TC3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Login_TC3 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="setup" is-config="true" duration-ms="12372" started-at="2019-08-25T02:45:15Z" finished-at="2019-08-25T02:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_valid_lgoin()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="verify_valid_lgoin" duration-ms="6092" started-at="2019-08-25T02:45:27Z" depends-on-methods="Tests.LoginPageTests.verify_loginpage_title" finished-at="2019-08-25T02:45:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_valid_lgoin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.LoginPageTests@2cb4c3ab]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-08-25T02:45:33Z" finished-at="2019-08-25T02:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.LoginPageTests -->
+      <class name="Tests.HomePageTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="setup" is-config="true" duration-ms="12154" started-at="2019-08-25T02:45:34Z" finished-at="2019-08-25T02:45:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_Home_TC3()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="verify_Home_TC3" duration-ms="1" started-at="2019-08-25T02:45:46Z" finished-at="2019-08-25T02:45:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login TC3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Home_TC3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="tearDown" is-config="true" duration-ms="848" started-at="2019-08-25T02:45:46Z" finished-at="2019-08-25T02:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="setup" is-config="true" duration-ms="12286" started-at="2019-08-25T02:45:47Z" finished-at="2019-08-25T02:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="tearDown" is-config="true" duration-ms="779" started-at="2019-08-25T02:45:59Z" finished-at="2019-08-25T02:46:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verify_Home_TC4()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="verify_Home_TC4" duration-ms="0" started-at="2019-08-25T02:45:59Z" finished-at="2019-08-25T02:45:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login TC4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_Home_TC4 -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="setup" is-config="true" duration-ms="12874" started-at="2019-08-25T02:46:00Z" finished-at="2019-08-25T02:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_homePage_title_Test()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="verify_homePage_title_Test" duration-ms="5541" started-at="2019-08-25T02:46:13Z" finished-at="2019-08-25T02:46:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page title is: Valuechain.com Test Site]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_homePage_title_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="tearDown" is-config="true" duration-ms="907" started-at="2019-08-25T02:46:18Z" finished-at="2019-08-25T02:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="setup" is-config="true" duration-ms="13395" started-at="2019-08-25T02:46:19Z" finished-at="2019-08-25T02:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_current_url_Test()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="verify_current_url_Test" duration-ms="5407" started-at="2019-08-25T02:46:33Z" depends-on-methods="Tests.HomePageTests.verify_homePage_title_Test" finished-at="2019-08-25T02:46:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home url is: https://test.valuechain.com/iQluster/Network/Manage/List]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_current_url_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.HomePageTests@13c78c0b]" name="tearDown" is-config="true" duration-ms="1085" started-at="2019-08-25T02:46:38Z" finished-at="2019-08-25T02:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.HomePageTests -->
+    </test> <!-- TestSite -->
+  </suite> <!-- Suite -->
+</testng-results>
